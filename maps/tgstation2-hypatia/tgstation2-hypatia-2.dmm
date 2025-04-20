@@ -512,6 +512,10 @@
 "bD" = (
 /obj/structure/rack,
 /obj/item/toy/sword,
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
 /turf/open/floor{
 	icon_state = "cafeteria"
 	},
@@ -903,6 +907,9 @@
 /area/centcom/rescue_shuttle)
 "cO" = (
 /obj/machinery/vending/snack,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor{
 	icon_state = "redbluefull"
 	},
@@ -1244,6 +1251,9 @@
 /turf/open/floor/tiled/dark_chapel,
 /area/enemy/wizard_station)
 "dW" = (
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/open/floor{
 	dir = 8;
 	icon_state = "carpetside"
@@ -1298,6 +1308,12 @@
 	icon_state = "carpet13-0"
 	},
 /area/special/holodeck/source/meeting_hall)
+"ef" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/tiled/grey,
+/area/centcom/control)
 "eg" = (
 /obj/structure/rack,
 /obj/item/storage/fancy/crayons,
@@ -1305,6 +1321,14 @@
 	icon_state = "cafeteria"
 	},
 /area/centcom/holding)
+"ej" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor{
+	icon_state = "redyellowfull"
+	},
+/area/centcom/tdome/admin)
 "ek" = (
 /obj/structure/rack,
 /obj/item/clothing/under/color/green,
@@ -1602,6 +1626,18 @@
 /obj/machinery/teleport/hub,
 /turf/open/floor/shuttle/red,
 /area/shuttle/syndicate/mercenary/start)
+"fJ" = (
+/obj/structure/stool/bed/chair{
+	dir = 4
+	},
+/obj/effect/decal/floor/coloured/green{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/tiled/grey,
+/area/centcom)
 "fK" = (
 /obj/machinery/door/airlock/centcom{
 	name = "General Access";
@@ -1609,6 +1645,14 @@
 	},
 /turf/open/floor/tiled/grey,
 /area/centcom)
+"fR" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor{
+	icon_state = "redyellowfull"
+	},
+/area/centcom/living)
 "fS" = (
 /turf/closed/wall/shuttle{
 	dir = 1;
@@ -1655,6 +1699,13 @@
 	},
 /turf/space,
 /area/space)
+"gk" = (
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor/tiled/dark,
+/area/centcom/specops)
 "gl" = (
 /obj/structure/holostool,
 /turf/open/floor/holofloor{
@@ -1677,6 +1728,14 @@
 /obj/item/gun/energy/laser,
 /turf/open/floor/tiled/dark,
 /area/centcom/tdome)
+"gp" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor{
+	icon_state = "platingdmg1"
+	},
+/area/centcom/solitary)
 "gq" = (
 /turf/closed/wall/shuttle{
 	dir = 5;
@@ -1722,6 +1781,14 @@
 	icon_state = "carpetside"
 	},
 /area/centcom/control)
+"gD" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor{
+	icon_state = "cafeteria"
+	},
+/area/centcom/living)
 "gE" = (
 /obj/structure/sign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
@@ -1790,6 +1857,14 @@
 	icon_state = "redyellowfull"
 	},
 /area/centcom/tdome/admin)
+"gY" = (
+/obj/effect/decal/floor/industrial/bot/vault,
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor/tiled/dark,
+/area/centcom/specops)
 "hb" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1379;
@@ -1849,6 +1924,14 @@
 	icon_state = "plasma3"
 	},
 /area/special/alien)
+"hl" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor{
+	icon_state = "panelscorched"
+	},
+/area/centcom/solitary)
 "hm" = (
 /obj/effect/decal/floor/coloured/red{
 	dir = 4
@@ -1930,6 +2013,18 @@
 "hD" = (
 /turf/closed/wall/shuttle/corner/interior/white/ne,
 /area/shuttle/supply/centcom)
+"hE" = (
+/obj/effect/decal/floor/coloured/green{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor{
+	dir = 5;
+	icon_state = "vault"
+	},
+/area/centcom/tdome)
 "hF" = (
 /obj/structure/closet/secure/freezer/meat,
 /turf/open/floor{
@@ -2008,6 +2103,12 @@
 /obj/machinery/computer/cloning,
 /turf/open/floor/tiled/white,
 /area/centcom/test)
+"ib" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/tiled/grey,
+/area/centcom/shuttle_dock/arrival)
 "id" = (
 /obj/structure/table/holotable,
 /obj/machinery/readybutton{
@@ -2050,6 +2151,10 @@
 	dir = 10;
 	icon_state = "carpetside"
 	},
+/area/centcom/control)
+"iq" = (
+/obj/machinery/light,
+/turf/open/floor/tiled/dark,
 /area/centcom/control)
 "is" = (
 /obj/structure/table/reinforced,
@@ -2101,6 +2206,13 @@
 	icon_state = "carpetside"
 	},
 /area/centcom/control)
+"iH" = (
+/obj/effect/decal/cleanable/blood,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/tiled/grey,
+/area/centcom/solitary)
 "iI" = (
 /obj/structure/table,
 /obj/machinery/computer/pod/old/syndicate{
@@ -2172,6 +2284,22 @@
 /obj/machinery/vending/cigarette,
 /turf/open/floor/shuttle/blue,
 /area/shuttle/administration/centcom)
+"jo" = (
+/obj/machinery/light,
+/turf/open/floor/wood,
+/area/centcom/living)
+"jq" = (
+/obj/structure/stool/bed/chair{
+	dir = 8
+	},
+/obj/effect/decal/floor/industrial/warning/border{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/tiled/grey,
+/area/centcom)
 "js" = (
 /obj/effect/decal/floor/coloured/green,
 /turf/open/floor/tiled/grey,
@@ -2214,6 +2342,16 @@
 	},
 /turf/open/floor/plating/metal,
 /area/centcom/specops)
+"jD" = (
+/obj/structure/stool/bed/chair/office/dark{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor/carpet,
+/area/centcom/living)
 "jF" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -2364,6 +2502,14 @@
 /obj/machinery/vending/coffee,
 /turf/open/floor/tiled/dark,
 /area/centcom/control)
+"kD" = (
+/obj/structure/stool/bed/chair,
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor/tiled/grey,
+/area/centcom/tdome)
 "kE" = (
 /turf/closed/wall/shuttle{
 	dir = 5;
@@ -2386,6 +2532,12 @@
 	icon_state = "redyellowfull"
 	},
 /area/centcom/tdome/admin)
+"kJ" = (
+/obj/machinery/light,
+/turf/open/floor{
+	icon_state = "cafeteria"
+	},
+/area/centcom/control)
 "kN" = (
 /turf/open/floor/shuttle/purple,
 /area/special/alien)
@@ -2501,6 +2653,9 @@
 /obj/effect/decal/floor/coloured/green{
 	dir = 9
 	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/tiled/grey,
 /area/centcom)
 "lt" = (
@@ -2512,6 +2667,9 @@
 /obj/item/plastique,
 /obj/item/plastique,
 /obj/effect/decal/floor/industrial/vault,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/tiled/dark,
 /area/centcom/specops)
 "lu" = (
@@ -2526,6 +2684,13 @@
 	},
 /turf/open/floor/shuttle/blue,
 /area/shuttle/administration/centcom)
+"lx" = (
+/obj/machinery/light,
+/turf/open/floor{
+	dir = 5;
+	icon_state = "vault"
+	},
+/area/centcom/tdome)
 "ly" = (
 /obj/machinery/vending/cola,
 /obj/effect/decal/floor/coloured/green{
@@ -2553,6 +2718,14 @@
 	icon_state = "snow"
 	},
 /area/special/holodeck/source/snow_field)
+"lI" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor{
+	icon_state = "redbluefull"
+	},
+/area/centcom/tdome/observation)
 "lJ" = (
 /turf/open/floor{
 	icon_state = "cafeteria"
@@ -2680,7 +2853,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/turf/open/floor/tiled/dark,
+/turf/open/floor/grass,
 /area/centcom/specops)
 "mu" = (
 /turf/open/floor/shuttle/blue,
@@ -2695,6 +2868,15 @@
 	icon_state = "swall11inv"
 	},
 /area/shuttle/administration/centcom)
+"mz" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor{
+	dir = 5;
+	icon_state = "vault"
+	},
+/area/centcom/tdome)
 "mB" = (
 /obj/structure/rack,
 /obj/item/clothing/tie/storage/black_vest,
@@ -2766,6 +2948,9 @@
 /obj/item/clothing/head/helmet/space/rig/ert/commander,
 /obj/item/clothing/suit/space/rig/ert/commander,
 /obj/effect/decal/floor/industrial/vault,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/open/floor/tiled/dark,
 /area/centcom/specops)
 "mU" = (
@@ -3099,6 +3284,7 @@
 /obj/item/storage/firstaid/adv,
 /obj/structure/table/reinforced,
 /obj/effect/decal/floor/industrial/vault,
+/obj/machinery/light,
 /turf/open/floor/tiled/dark,
 /area/centcom/specops)
 "oJ" = (
@@ -3153,6 +3339,7 @@
 /obj/item/stack/medical/bruise_pack,
 /obj/item/stack/medical/bruise_pack,
 /obj/item/stack/medical/bruise_pack,
+/obj/machinery/light,
 /turf/open/floor{
 	icon_state = "redyellowfull"
 	},
@@ -3278,6 +3465,12 @@
 	},
 /turf/open/floor/tiled/dark,
 /area/centcom/specops)
+"pG" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plating/metal,
+/area/centcom/shuttle_dock/ferry)
 "pH" = (
 /obj/structure/closet/secure/injection,
 /turf/open/floor/tiled/white,
@@ -3370,6 +3563,14 @@
 	},
 /turf/open/floor/tiled/freezer,
 /area/enemy/wizard_station)
+"qe" = (
+/obj/machinery/dna_scannernew,
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor/tiled/white,
+/area/centcom/test)
 "qf" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Barracks"
@@ -3524,6 +3725,16 @@
 "qY" = (
 /turf/closed/wall/shuttle/corner/exterior/white/ne,
 /area/shuttle/supply/centcom)
+"ra" = (
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor/beach/sand{
+	icon_state = "desert";
+	tag = "icon-desert"
+	},
+/area/centcom/holding)
 "rb" = (
 /turf/open/floor/beach/water{
 	density = 1;
@@ -3591,6 +3802,16 @@
 	icon_state = "carpet4-0"
 	},
 /area/special/holodeck/source/meeting_hall)
+"rt" = (
+/obj/structure/rack,
+/obj/item/storage/fancy/crayons,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor{
+	icon_state = "cafeteria"
+	},
+/area/centcom/holding)
 "ru" = (
 /turf/closed/wall/shuttle/corner/interior/white/se,
 /area/shuttle/transport/centcom)
@@ -3727,6 +3948,21 @@
 	icon_state = "carpetside"
 	},
 /area/centcom/control)
+"si" = (
+/obj/structure/table,
+/obj/item/reagent_holder/food/drinks/cans/beer,
+/obj/item/reagent_holder/food/drinks/cans/beer,
+/obj/item/reagent_holder/food/drinks/cans/beer,
+/obj/item/lighter/zippo,
+/obj/item/storage/fancy/cigarettes,
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor{
+	icon_state = "redbluefull"
+	},
+/area/centcom/tdome/observation)
 "sj" = (
 /obj/machinery/computer/pod{
 	id = "NTrasen";
@@ -3912,6 +4148,13 @@
 	icon_state = "floor"
 	},
 /area/special/holodeck/source/basketball_court)
+"te" = (
+/obj/structure/table,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/carpet,
+/area/centcom/control)
 "tg" = (
 /obj/machinery/sleeper,
 /obj/machinery/light/small{
@@ -3940,6 +4183,13 @@
 /obj/item/stool,
 /turf/open/floor/shuttle/red/vox,
 /area/shuttle/vox/start)
+"tp" = (
+/obj/effect/decal/floor/industrial/bot/vault,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/tiled/dark,
+/area/centcom/specops)
 "tq" = (
 /obj/structure/artilleryplaceholder{
 	icon_state = "6"
@@ -4014,8 +4264,19 @@
 /area/shuttle/syndicate/mercenary/start)
 "tW" = (
 /obj/machinery/teleport/hub,
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
 /turf/open/floor/reinforced,
 /area/centcom/control)
+"tX" = (
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor/tiled/grey,
+/area/centcom/shuttle_dock/arrival)
 "tZ" = (
 /obj/structure/shuttle/engine/propulsion/left{
 	dir = 4
@@ -4049,6 +4310,13 @@
 /obj/machinery/computer/card/centcom,
 /turf/open/floor/wood,
 /area/centcom/living)
+"uh" = (
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor/tiled/white,
+/area/centcom/tdome)
 "uj" = (
 /obj/structure/table,
 /obj/effect/decal/floor/coloured/green{
@@ -4143,6 +4411,7 @@
 	id = "thunderdomeaxe";
 	name = "Thunderdome Axe Supply"
 	},
+/obj/machinery/light,
 /turf/open/floor{
 	icon_state = "redyellowfull"
 	},
@@ -4442,8 +4711,17 @@
 /obj/effect/decal/floor/industrial/vault,
 /turf/open/floor/tiled/dark,
 /area/centcom/specops)
+"wo" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/tiled/dark,
+/area/centcom/control)
 "wr" = (
 /obj/effect/decal/cleanable/cobweb2,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/open/floor{
 	icon_state = "platingdmg1"
 	},
@@ -4461,6 +4739,15 @@
 /obj/machinery/sleeper,
 /turf/open/floor/tiled/white,
 /area/centcom/test)
+"ww" = (
+/obj/structure/window/reinforced,
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/obj/structure/showcase,
+/turf/open/floor/tiled/showroom,
+/area/centcom/specops)
 "wB" = (
 /turf/closed/wall/shuttle/corner/exterior/inverted/nw,
 /area/shuttle/syndicate/elite/mothership)
@@ -4515,6 +4802,15 @@
 	},
 /turf/space,
 /area/space)
+"wU" = (
+/obj/structure/stool{
+	pixel_y = 8
+	},
+/obj/machinery/light,
+/turf/open/floor{
+	icon_state = "cafeteria"
+	},
+/area/centcom/holding)
 "wV" = (
 /turf/open/floor{
 	icon_state = "panelscorched"
@@ -4640,6 +4936,13 @@
 /obj/structure/closet/alien,
 /turf/open/floor/shuttle/purple,
 /area/special/alien)
+"xz" = (
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor/tiled/dark,
+/area/centcom/control)
 "xA" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
@@ -4783,6 +5086,12 @@
 "ye" = (
 /turf/open/floor/shuttle/red/brig,
 /area/shuttle/escape/centcom)
+"yg" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/tiled/dark,
+/area/centcom/control)
 "yj" = (
 /obj/machinery/door/window/westright,
 /turf/open/floor/tiled/grey,
@@ -4796,6 +5105,18 @@
 "yo" = (
 /turf/open/floor/grass,
 /area/centcom/living)
+"yp" = (
+/obj/effect/decal/floor/coloured/red{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor{
+	dir = 5;
+	icon_state = "vault"
+	},
+/area/centcom/tdome)
 "yr" = (
 /turf/closed/wall/reinforced/riveted,
 /area/space)
@@ -4885,6 +5206,10 @@
 "yS" = (
 /obj/effect/decal/floor/coloured/red/corner{
 	dir = 8
+	},
+/obj/machinery/light{
+	dir = 1;
+	on = 1
 	},
 /turf/open/floor{
 	dir = 5;
@@ -5026,7 +5351,7 @@
 /area/space)
 "zN" = (
 /obj/structure/window/reinforced,
-/turf/open/floor/tiled/dark,
+/turf/open/floor/grass,
 /area/centcom/specops)
 "zP" = (
 /obj/structure/stool/bed/alien,
@@ -5160,6 +5485,17 @@
 /obj/item/clothing/mask/breath/vox,
 /turf/open/floor/shuttle/red/vox,
 /area/shuttle/vox/start)
+"AE" = (
+/obj/structure/table,
+/obj/effect/decal/floor/coloured/green{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor/tiled/grey,
+/area/centcom)
 "AF" = (
 /obj/structure/shuttle/engine/propulsion/burst/left,
 /turf/open/floor/plating/metal/shuttle,
@@ -5173,6 +5509,9 @@
 "AI" = (
 /obj/effect/decal/floor/coloured/green{
 	dir = 5
+	},
+/obj/machinery/light{
+	dir = 4
 	},
 /turf/open/floor/tiled/grey,
 /area/centcom)
@@ -5220,6 +5559,16 @@
 	tag = "icon-desert"
 	},
 /area/special/holodeck/source/beach)
+"AY" = (
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor{
+	dir = 5;
+	icon_state = "vault"
+	},
+/area/centcom/tdome)
 "Ba" = (
 /obj/structure/rack,
 /obj/item/crowbar,
@@ -5245,6 +5594,10 @@
 	},
 /turf/open/floor/tiled/grey,
 /area/centcom)
+"Bl" = (
+/obj/machinery/light,
+/turf/open/floor/plating/metal,
+/area/centcom/shuttle_dock/supply)
 "Bn" = (
 /turf/closed/wall/shuttle{
 	dir = 5;
@@ -5318,6 +5671,16 @@
 /obj/effect/decal/floor/industrial/vault,
 /turf/open/floor/tiled/dark,
 /area/centcom/specops)
+"BM" = (
+/obj/effect/decal/floor/coloured/green{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor/tiled/grey,
+/area/centcom/control)
 "BN" = (
 /turf/open/floor/beach/sand{
 	icon_state = "beachcorner";
@@ -5341,6 +5704,12 @@
 "BQ" = (
 /turf/closed/wall/reinforced/riveted,
 /area/centcom/shuttle_dock/ferry)
+"BS" = (
+/obj/machinery/light,
+/turf/open/floor{
+	icon_state = "bar"
+	},
+/area/centcom/living)
 "BU" = (
 /turf/open/floor{
 	dir = 5;
@@ -5522,6 +5891,13 @@
 	icon_state = "swall12"
 	},
 /area/shuttle/escape/centcom)
+"CZ" = (
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor/tiled/freezer,
+/area/centcom/holding)
 "Db" = (
 /obj/machinery/atmospherics/unary/cold_sink/freezer{
 	current_temperature = 80;
@@ -5606,6 +5982,7 @@
 /obj/effect/decal/floor/coloured/red{
 	dir = 10
 	},
+/obj/machinery/light,
 /turf/open/floor/tiled/grey,
 /area/centcom/tdome)
 "Du" = (
@@ -5659,6 +6036,15 @@
 	icon_state = "gravsnow_corner"
 	},
 /area/enemy/syndicate/mothership)
+"DC" = (
+/obj/effect/landmark{
+	name = "Holding Facility"
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/reinforced,
+/area/centcom/holding)
 "DD" = (
 /obj/item/beach_ball,
 /turf/open/floor/beach/sand,
@@ -5703,6 +6089,9 @@
 /obj/item/clothing/shoes/magboots,
 /obj/item/clothing/shoes/magboots,
 /obj/effect/decal/floor/industrial/vault,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/open/floor/tiled/dark,
 /area/centcom/specops)
 "DJ" = (
@@ -5748,6 +6137,13 @@
 	},
 /turf/open/floor/shuttle/yellow,
 /area/shuttle/escape/centcom)
+"DT" = (
+/obj/structure/table/reinforced,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/tiled/grey,
+/area/centcom/control)
 "DU" = (
 /turf/closed/wall/shuttle/corner/exterior/inverted/se,
 /area/shuttle/syndicate/elite/mothership)
@@ -5765,6 +6161,14 @@
 	},
 /turf/open/floor/shuttle/blue,
 /area/shuttle/escape/centcom)
+"DY" = (
+/obj/effect/decal/floor/coloured/green,
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor/tiled/grey,
+/area/centcom/control)
 "Ec" = (
 /obj/effect/decal/floor/coloured/green{
 	dir = 4
@@ -5782,6 +6186,9 @@
 "Ee" = (
 /obj/structure/table,
 /obj/effect/decal/floor/coloured/green{
+	dir = 4
+	},
+/obj/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/tiled/grey,
@@ -5893,6 +6300,14 @@
 	},
 /turf/open/floor/plating/metal/shuttle/airless,
 /area/shuttle/syndicate/elite/mothership)
+"EG" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor{
+	icon_state = "platingdmg3"
+	},
+/area/centcom/solitary)
 "EH" = (
 /obj/structure/stool/bed,
 /obj/item/bedsheet,
@@ -6067,6 +6482,18 @@
 	icon_state = "cafeteria"
 	},
 /area/centcom/control)
+"Fw" = (
+/obj/structure/stool/bed/chair{
+	dir = 4
+	},
+/obj/effect/decal/floor/industrial/warning/border{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/tiled/grey,
+/area/centcom)
 "Fx" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -6116,6 +6543,9 @@
 /obj/machinery/computer/med_data,
 /turf/open/floor/tiled/grey,
 /area/centcom/control)
+"FJ" = (
+/turf/space,
+/area/centcom)
 "FK" = (
 /obj/structure/holostool,
 /turf/open/floor/holofloor{
@@ -6176,6 +6606,15 @@
 	icon_state = "carpet15-15"
 	},
 /area/special/holodeck/source/theatre)
+"FU" = (
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor{
+	icon_state = "cafeteria"
+	},
+/area/centcom/living)
 "FV" = (
 /obj/structure/table,
 /obj/item/crowbar,
@@ -6191,6 +6630,12 @@
 /obj/item/clothing/glasses/night,
 /turf/open/floor/shuttle/red,
 /area/shuttle/syndicate/mercenary/start)
+"FZ" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/tiled/white,
+/area/centcom/control)
 "Gb" = (
 /obj/effect/decal/floor/coloured/green,
 /turf/open/floor/tiled/grey,
@@ -6272,6 +6717,10 @@
 "GC" = (
 /turf/open/floor/tiled/dark,
 /area/centcom/control)
+"GD" = (
+/obj/machinery/light,
+/turf/open/floor/plating/metal,
+/area/centcom/shuttle_dock/administration)
 "GE" = (
 /obj/machinery/computer/shuttle_control{
 	name = "centcom shuttle control console";
@@ -6449,6 +6898,15 @@
 	icon_state = "vault"
 	},
 /area/centcom/specops)
+"HC" = (
+/obj/effect/landmark{
+	name = "Holding Facility"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/reinforced,
+/area/centcom/holding)
 "HD" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/flashbangs,
@@ -6720,6 +7178,14 @@
 /obj/structure/stool/bed/chair,
 /turf/open/floor/tiled/white,
 /area/centcom/control)
+"Jb" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor{
+	icon_state = "bar"
+	},
+/area/centcom/living)
 "Jd" = (
 /obj/structure/sign/securearea{
 	name = "ENGINEERING ACCESS";
@@ -6745,6 +7211,14 @@
 	},
 /turf/open/floor/plating/metal/shuttle/airless,
 /area/shuttle/syndicate/elite/mothership)
+"Jl" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor{
+	icon_state = "redyellowfull"
+	},
+/area/centcom/tdome/admin)
 "Jn" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1379;
@@ -6755,6 +7229,20 @@
 	},
 /turf/open/floor/tiled/grey,
 /area/centcom/shuttle_dock/arrival)
+"Jo" = (
+/obj/effect/landmark{
+	name = "Response Team"
+	},
+/obj/effect/landmark{
+	name = "Commando"
+	},
+/obj/effect/decal/floor/industrial/vault,
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor/tiled/dark,
+/area/centcom/specops)
 "Jr" = (
 /turf/open/floor/shuttle/yellow,
 /area/shuttle/escape/centcom)
@@ -6862,6 +7350,13 @@
 	},
 /turf/open/floor/plating/metal,
 /area/centcom/shuttle_dock/ferry)
+"JU" = (
+/obj/structure/table/reinforced,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/tiled/grey,
+/area/centcom/control)
 "JV" = (
 /turf/open/floor/plating/metal,
 /area/enemy/syndicate/mothership/elite_squad)
@@ -6938,6 +7433,14 @@
 /obj/effect/decal/floor/chapel/red,
 /turf/open/floor/tiled/dark_chapel,
 /area/enemy/wizard_station)
+"Ko" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor{
+	icon_state = "floorgrime"
+	},
+/area/centcom/solitary)
 "Ks" = (
 /turf/open/floor/beach/sand,
 /area/special/beach)
@@ -6994,6 +7497,15 @@
 	tag = "icon-desert"
 	},
 /area/centcom/holding)
+"KI" = (
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor{
+	icon_state = "bar"
+	},
+/area/centcom/living)
 "KL" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1379;
@@ -7102,6 +7614,13 @@
 	},
 /turf/open/floor/shuttle/white,
 /area/shuttle/syndicate/mercenary/start)
+"Lm" = (
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor/plating/metal,
+/area/centcom/shuttle_dock/supply)
 "Lo" = (
 /turf/closed/wall/shuttle/corner/interior/inverted/nw,
 /area/shuttle/administration/centcom)
@@ -7294,6 +7813,13 @@
 /obj/item/card/id/captains_spare,
 /turf/open/floor/tiled/grey,
 /area/centcom/control)
+"Mp" = (
+/obj/effect/decal/floor/industrial/bot/vault,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/tiled/dark,
+/area/centcom/specops)
 "Mq" = (
 /obj/structure/table/holotable,
 /obj/effect/decal/floor/coloured/green{
@@ -7425,6 +7951,12 @@
 /obj/effect/decal/floor/industrial/vault,
 /turf/open/floor/tiled/dark,
 /area/centcom/specops)
+"Nh" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plating/metal,
+/area/centcom/shuttle_dock/supply)
 "Nl" = (
 /obj/machinery/computer/shuttle_control{
 	name = "administration shuttle control console";
@@ -7482,6 +8014,15 @@
 	name = "Holodeck Projector Floor"
 	},
 /area/special/holodeck/source/wildlife)
+"Ny" = (
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor{
+	icon_state = "redbluefull"
+	},
+/area/centcom/tdome/observation)
 "Nz" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 1
@@ -7562,6 +8103,12 @@
 "NV" = (
 /turf/space,
 /area/shuttle/escape_pod2/centcom)
+"NX" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plating/metal,
+/area/centcom/shuttle_dock/administration)
 "NY" = (
 /obj/machinery/mass_driver{
 	dir = 8;
@@ -7704,6 +8251,13 @@
 	icon_state = "floor"
 	},
 /area/special/holodeck/source/empty_court)
+"OK" = (
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor/plating/metal,
+/area/centcom/shuttle_dock/administration)
 "OL" = (
 /obj/effect/decal/floor/coloured/green{
 	dir = 8
@@ -7939,6 +8493,10 @@
 /obj/effect/decal/floor/industrial/vault,
 /turf/open/floor/tiled/dark,
 /area/centcom/specops)
+"PU" = (
+/obj/machinery/light,
+/turf/open/floor/tiled/grey,
+/area/centcom/shuttle_dock/arrival)
 "PW" = (
 /obj/structure/stool/bed/chair{
 	dir = 4
@@ -7958,6 +8516,9 @@
 /obj/item/grenade/smoke,
 /obj/item/grenade/smoke,
 /obj/effect/decal/floor/industrial/vault,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/tiled/dark,
 /area/centcom/specops)
 "Qc" = (
@@ -8010,6 +8571,23 @@
 	icon_state = "gravsnow_corner"
 	},
 /area/enemy/syndicate/mothership)
+"Qr" = (
+/obj/effect/decal/floor/coloured/green{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/tiled/grey,
+/area/centcom)
+"Qs" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/light,
+/obj/structure/showcase,
+/turf/open/floor/tiled/showroom,
+/area/centcom/specops)
 "Qt" = (
 /obj/machinery/chem_master,
 /turf/open/floor/shuttle/white,
@@ -8229,6 +8807,7 @@
 /obj/effect/decal/floor/coloured/green{
 	dir = 6
 	},
+/obj/machinery/light,
 /turf/open/floor/tiled/grey,
 /area/centcom/tdome)
 "Rq" = (
@@ -8291,6 +8870,12 @@
 /obj/item/cash/c1,
 /turf/open/floor/wood,
 /area/enemy/wizard_station)
+"RJ" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/tiled/grey,
+/area/centcom/control)
 "RK" = (
 /obj/machinery/portable_atmospherics/scrubber,
 /obj/effect/decal/floor/industrial/vault,
@@ -8497,6 +9082,18 @@
 	icon_state = "swall3inv"
 	},
 /area/shuttle/syndicate/elite/mothership)
+"SS" = (
+/obj/structure/stool/bed/chair{
+	dir = 8
+	},
+/obj/effect/decal/floor/coloured/green{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/tiled/grey,
+/area/centcom)
 "ST" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 8
@@ -8548,6 +9145,9 @@
 /area/centcom/specops)
 "Tj" = (
 /obj/effect/decal/cleanable/cobweb2,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/open/floor/tiled/grey,
 /area/centcom/solitary)
 "Tk" = (
@@ -8694,6 +9294,12 @@
 	},
 /turf/open/floor/shuttle/red/vox,
 /area/shuttle/vox/start)
+"TW" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/tiled/grey,
+/area/centcom/shuttle_dock/emergency)
 "TX" = (
 /turf/closed/wall/shuttle{
 	icon_state = "swall12"
@@ -8731,6 +9337,15 @@
 	},
 /turf/open/floor/plating/metal/shuttle,
 /area/shuttle/transport/centcom)
+"Uj" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor{
+	dir = 4;
+	icon_state = "carpetside"
+	},
+/area/centcom/control)
 "Ul" = (
 /turf/open/floor/shuttle/red/brig,
 /area/shuttle/vox/start)
@@ -8952,6 +9567,10 @@
 	},
 /turf/open/floor/shuttle/red,
 /area/shuttle/syndicate/elite/mothership)
+"VX" = (
+/obj/machinery/light,
+/turf/open/floor/carpet,
+/area/centcom/living)
 "VZ" = (
 /obj/machinery/gibber,
 /turf/open/floor/tiled/white,
@@ -9038,6 +9657,16 @@
 	opacity = 1
 	},
 /area/special/beach)
+"Wy" = (
+/obj/structure/stool/bed/chair,
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor{
+	icon_state = "carpetside"
+	},
+/area/centcom/control)
 "WB" = (
 /turf/open/floor/holofloor{
 	dir = 4;
@@ -9106,6 +9735,9 @@
 "WT" = (
 /obj/machinery/computer/card/centcom,
 /obj/item/card/id/centcom,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/linoleum,
 /area/centcom/creed)
 "WU" = (
@@ -9125,6 +9757,13 @@
 /obj/item/clothing/mask/cigarette/cigar/havana,
 /turf/open/floor/linoleum,
 /area/centcom/creed)
+"WW" = (
+/obj/machinery/light,
+/turf/open/floor/beach/sand{
+	icon_state = "seashallow";
+	tag = "icon-seashallow"
+	},
+/area/centcom/holding)
 "WX" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/emergency,
@@ -9169,6 +9808,14 @@
 /obj/effect/window_spawner/reinforced,
 /turf/open/floor/plating/metal,
 /area/centcom/living)
+"Xi" = (
+/obj/machinery/portable_atmospherics/canister/air,
+/obj/effect/decal/floor/industrial/vault,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/tiled/dark,
+/area/centcom/specops)
 "Xj" = (
 /obj/structure/flora/grass/both,
 /turf/open/floor/plating/snow,
@@ -9285,6 +9932,9 @@
 /area/centcom/shuttle_dock/arrival)
 "XP" = (
 /obj/structure/closet/secure/security,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/carpet,
 /area/centcom/control)
 "XR" = (
@@ -9316,6 +9966,12 @@
 	icon_state = "redyellowfull"
 	},
 /area/centcom/tdome/admin)
+"Yc" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/linoleum,
+/area/centcom/creed)
 "Yf" = (
 /obj/machinery/sleeper,
 /turf/open/floor/carpet,
@@ -9452,6 +10108,12 @@
 	icon_state = "carpet10-0"
 	},
 /area/special/holodeck/source/meeting_hall)
+"YO" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/tiled/grey,
+/area/centcom/solitary)
 "YP" = (
 /obj/machinery/status_display{
 	layer = 4;
@@ -9502,6 +10164,13 @@
 	},
 /turf/open/floor/tiled/freezer,
 /area/centcom/holding)
+"YX" = (
+/obj/effect/decal/floor/coloured/green{
+	dir = 1
+	},
+/obj/machinery/light,
+/turf/open/floor/tiled/grey,
+/area/centcom/control)
 "YY" = (
 /turf/closed/wall/reinforced/riveted{
 	icon = 'icons/turf/walls/mineral.dmi';
@@ -33028,7 +33697,7 @@ ua
 ua
 ua
 QP
-KV
+tX
 KV
 Ct
 SD
@@ -33040,7 +33709,7 @@ SD
 SD
 Ct
 KV
-KV
+PU
 QP
 ua
 ua
@@ -34056,7 +34725,7 @@ ua
 ua
 ua
 QP
-KV
+tX
 KV
 QP
 SD
@@ -34068,7 +34737,7 @@ SD
 SD
 QP
 KV
-KV
+PU
 QP
 ua
 ua
@@ -34793,7 +35462,7 @@ tw
 Jw
 Ch
 BB
-Ce
+Mp
 Ce
 om
 Ce
@@ -35046,7 +35715,7 @@ Ch
 wr
 nU
 Ch
-WF
+iH
 Zp
 Ch
 pm
@@ -35084,7 +35753,7 @@ ua
 ua
 ua
 QP
-KV
+tX
 KV
 QP
 SD
@@ -35096,7 +35765,7 @@ SD
 SD
 QP
 KV
-KV
+PU
 QP
 ua
 ua
@@ -35282,7 +35951,7 @@ ua
 ua
 ua
 zS
-MN
+OK
 VM
 KP
 RC
@@ -35298,7 +35967,7 @@ tM
 vS
 az
 rm
-MN
+GD
 Ch
 Ch
 Ch
@@ -35313,7 +35982,7 @@ uK
 Ce
 Ce
 Ce
-Ce
+tp
 Ce
 RK
 pm
@@ -35814,17 +36483,17 @@ Qt
 ZP
 MN
 Ch
-wV
+hl
 ti
 Ch
-pc
+gp
 ti
 Ch
 Vh
 Ce
 Eq
 pm
-Ce
+gY
 MD
 MD
 MD
@@ -36112,7 +36781,7 @@ ua
 ua
 ua
 QP
-KV
+tX
 KV
 QP
 QP
@@ -36124,7 +36793,7 @@ Ct
 QP
 QP
 KV
-KV
+PU
 QP
 ua
 ua
@@ -36585,10 +37254,10 @@ Tz
 hJ
 MN
 Ch
-Xg
+EG
 nU
 Ch
-nU
+Ko
 Xg
 Ch
 mc
@@ -36626,18 +37295,18 @@ GM
 GM
 GM
 QP
+ib
+KV
+KV
+ib
 KV
 KV
 KV
 KV
+ib
 KV
 KV
-KV
-KV
-KV
-KV
-KV
-KV
+ib
 KV
 QP
 ua
@@ -36824,7 +37493,7 @@ ua
 ua
 ua
 zS
-MN
+OK
 qF
 jR
 ZZ
@@ -36840,7 +37509,7 @@ zw
 zw
 Qy
 ZP
-MN
+GD
 Ch
 Ch
 Ch
@@ -36848,7 +37517,7 @@ Ch
 Ch
 Ch
 Ch
-MD
+gk
 Ce
 Ce
 Ce
@@ -36878,7 +37547,7 @@ Vg
 Vg
 jO
 vy
-eg
+rt
 eg
 Fh
 GM
@@ -37110,7 +37779,7 @@ lu
 TJ
 lu
 BI
-BI
+Xi
 BI
 MD
 MD
@@ -37131,7 +37800,7 @@ LX
 LJ
 LJ
 GM
-cd
+CZ
 cd
 cd
 lJ
@@ -37139,7 +37808,7 @@ lJ
 lJ
 lJ
 gM
-LY
+HC
 LY
 GM
 Zs
@@ -37356,10 +38025,10 @@ Sq
 ZP
 MN
 Ch
-ti
+YO
 WF
 Ch
-Xg
+EG
 ti
 Ch
 pm
@@ -37910,7 +38579,7 @@ lJ
 lJ
 lJ
 gM
-LY
+DC
 LY
 GM
 Zs
@@ -38130,7 +38799,7 @@ Ch
 Tj
 wV
 Ch
-Xg
+EG
 ti
 Ch
 bQ
@@ -38143,7 +38812,7 @@ PI
 mP
 by
 Dg
-Dg
+Yc
 Dg
 Dg
 Ot
@@ -38192,7 +38861,7 @@ kh
 kh
 kh
 kh
-kh
+yp
 kh
 kh
 kh
@@ -38366,7 +39035,7 @@ ua
 ua
 ua
 zS
-MN
+OK
 MN
 hJ
 Dd
@@ -38382,7 +39051,7 @@ xT
 yz
 ZP
 MN
-MN
+GD
 Ch
 Ch
 Ch
@@ -38390,7 +39059,7 @@ Ch
 Ch
 Ch
 Ch
-bQ
+Jo
 Ce
 um
 Ti
@@ -38441,7 +39110,7 @@ mS
 mS
 mS
 mS
-mS
+mz
 mS
 mS
 mS
@@ -38694,7 +39363,7 @@ Mx
 Zy
 Zs
 ht
-mS
+AY
 ht
 ht
 ht
@@ -38898,10 +39567,10 @@ MN
 MN
 MN
 Ch
-WF
+iH
 ti
 Ch
-ti
+YO
 pc
 Ch
 bQ
@@ -38936,7 +39605,7 @@ lJ
 lJ
 lJ
 lJ
-iF
+wU
 GM
 lq
 Zs
@@ -39138,21 +39807,21 @@ ua
 ua
 zS
 MN
+NX
 MN
 MN
-MN
-MN
+NX
 MN
 MN
 eW
 eW
 MN
 MN
+NX
 MN
 MN
 MN
-MN
-MN
+NX
 MN
 Ch
 Ch
@@ -39432,7 +40101,7 @@ Ot
 Ot
 Ot
 Ot
-lq
+FJ
 lq
 lq
 BQ
@@ -39467,7 +40136,7 @@ Zs
 ht
 mS
 ht
-qq
+uh
 qq
 qq
 ut
@@ -39669,10 +40338,10 @@ Wh
 fG
 yo
 Ch
-ti
+YO
 Xg
 Ch
-WF
+iH
 tH
 Ch
 va
@@ -39740,7 +40409,7 @@ dx
 cb
 go
 ht
-mS
+AY
 ht
 ua
 ua
@@ -39916,12 +40585,12 @@ Mk
 Mk
 zS
 MN
-MN
+GD
 zS
 EP
-Mk
+VX
 fG
-EP
+jD
 Mk
 Xh
 yo
@@ -39934,9 +40603,9 @@ Ch
 Ch
 pm
 pm
-zN
+ww
 Ti
-ms
+Qs
 pm
 ua
 ua
@@ -40472,13 +41141,13 @@ dF
 dF
 dF
 GM
-MI
+ra
 sv
 MI
 KF
 SZ
 QE
-QE
+WW
 GM
 lq
 Zs
@@ -40493,7 +41162,7 @@ WS
 xD
 pa
 ht
-mS
+AY
 ht
 ht
 ht
@@ -40704,10 +41373,10 @@ Ft
 Lx
 jH
 jH
+ef
 jH
 jH
-jH
-jH
+ef
 jH
 jH
 jH
@@ -40754,7 +41423,7 @@ mS
 mS
 ht
 iS
-eR
+lI
 eR
 eR
 Qw
@@ -40768,7 +41437,7 @@ KX
 Rk
 Qw
 Ji
-Ji
+ej
 Ji
 UB
 ht
@@ -40947,10 +41616,10 @@ rR
 rR
 rR
 rR
-rR
+BS
 fG
 vz
-hN
+jo
 fG
 yo
 or
@@ -40980,7 +41649,7 @@ ua
 BQ
 LJ
 LJ
-LJ
+pG
 LJ
 Ky
 Ky
@@ -41010,7 +41679,7 @@ ht
 mS
 mS
 ht
-TD
+si
 Ri
 eR
 Ri
@@ -41211,7 +41880,7 @@ hN
 Xh
 yo
 or
-ow
+BM
 jH
 jH
 sl
@@ -41265,7 +41934,7 @@ Un
 ht
 ht
 ht
-mS
+AY
 ht
 lY
 Ri
@@ -41454,7 +42123,7 @@ ua
 ua
 ua
 fG
-rR
+KI
 qb
 lh
 rR
@@ -41516,7 +42185,7 @@ Ie
 Ie
 js
 ht
-Se
+kD
 hx
 hx
 KX
@@ -41737,7 +42406,7 @@ Sp
 jH
 Sp
 jH
-dK
+JU
 Rh
 ow
 or
@@ -41768,7 +42437,7 @@ Zy
 Zy
 Zy
 lq
-em
+AE
 Ie
 Ie
 js
@@ -41975,7 +42644,7 @@ rR
 rR
 Fi
 Fi
-rR
+BS
 fG
 fG
 fG
@@ -41987,7 +42656,7 @@ or
 or
 or
 or
-sl
+DY
 Rh
 jH
 jH
@@ -41996,7 +42665,7 @@ jH
 jH
 is
 Rh
-ow
+YX
 or
 lq
 lq
@@ -42010,11 +42679,11 @@ zm
 zm
 Oy
 zm
-vu
+Fw
 pD
 vu
 zm
-zm
+fJ
 XC
 zm
 zm
@@ -42024,7 +42693,7 @@ zm
 pB
 zm
 zm
-XC
+Qr
 xK
 Ie
 Ie
@@ -42038,7 +42707,7 @@ yj
 ht
 mS
 ht
-eR
+Ny
 Ri
 eR
 Ri
@@ -42743,10 +43412,10 @@ qu
 eo
 rR
 rR
-Pk
+fR
 UL
 Pk
-rR
+Jb
 rR
 rR
 rR
@@ -43015,7 +43684,7 @@ or
 or
 or
 or
-sl
+DY
 Rh
 jH
 jH
@@ -43024,7 +43693,7 @@ jH
 jH
 Mo
 Rh
-ow
+YX
 or
 lq
 lq
@@ -43038,11 +43707,11 @@ GS
 GS
 nO
 GS
-Bj
+jq
 Cv
 Bj
 GS
-Bj
+jq
 Cv
 jP
 GS
@@ -43066,7 +43735,7 @@ Oj
 ht
 mS
 ht
-eR
+Ny
 Ri
 eR
 Ri
@@ -43279,7 +43948,7 @@ dk
 jH
 dk
 jH
-dK
+DT
 Rh
 ow
 or
@@ -43307,7 +43976,7 @@ Zy
 Zy
 Zy
 lq
-em
+AE
 Ie
 Ie
 Ie
@@ -43572,7 +44241,7 @@ Ie
 Ie
 js
 ht
-Se
+kD
 hx
 hx
 vA
@@ -43835,7 +44504,7 @@ Un
 ht
 ht
 ht
-mS
+AY
 ht
 Te
 Ri
@@ -44030,7 +44699,7 @@ dg
 dg
 ax
 cQ
-zr
+gD
 PP
 zr
 zr
@@ -44065,6 +44734,7 @@ ua
 ua
 CA
 Rn
+TW
 Rn
 Rn
 Rn
@@ -44072,8 +44742,7 @@ Rn
 Rn
 Rn
 Rn
-Rn
-Rn
+TW
 Rn
 CA
 Zs
@@ -44094,7 +44763,7 @@ lq
 ht
 mS
 ht
-eR
+Ny
 of
 KS
 NH
@@ -44302,11 +44971,11 @@ UY
 Ah
 jH
 jH
+RJ
 jH
 jH
 jH
-jH
-jH
+RJ
 jH
 jH
 jH
@@ -44366,7 +45035,7 @@ vA
 Rk
 Qw
 Ji
-Ji
+Jl
 Ji
 ke
 ht
@@ -44546,7 +45215,7 @@ ax
 Tq
 su
 fG
-zr
+FU
 zr
 zr
 Xh
@@ -44594,11 +45263,11 @@ Zs
 Zy
 uj
 GS
-GS
+SS
 GS
 GS
 Ec
-GS
+SS
 GS
 jP
 Cv
@@ -44865,7 +45534,7 @@ lq
 ht
 mS
 mS
-mS
+mz
 mS
 mS
 ht
@@ -45326,12 +45995,12 @@ ax
 ax
 ax
 qp
-iK
+qe
 dJ
 dJ
 ol
 qp
-tJ
+Wy
 GC
 GC
 Rh
@@ -45394,7 +46063,7 @@ CE
 cb
 CO
 ht
-mS
+lx
 ht
 ua
 ua
@@ -45571,14 +46240,14 @@ wb
 wb
 wb
 wb
+Nh
 dg
 dg
 dg
 dg
 dg
 dg
-dg
-dg
+Nh
 dg
 dg
 ax
@@ -46152,7 +46821,7 @@ ua
 ua
 ua
 ht
-mS
+AY
 ht
 ht
 ht
@@ -46421,7 +47090,7 @@ ZX
 mS
 pP
 mS
-mS
+mz
 mS
 ht
 ua
@@ -46595,7 +47264,7 @@ Fy
 ua
 ua
 ax
-dg
+Lm
 Id
 Rw
 MX
@@ -46608,7 +47277,7 @@ MX
 SA
 jF
 zE
-dg
+Bl
 ax
 Sc
 ki
@@ -46621,7 +47290,7 @@ GC
 GC
 QT
 LV
-LV
+FZ
 LV
 LV
 or
@@ -46871,7 +47540,7 @@ XP
 ki
 or
 EH
-Sc
+te
 Sc
 or
 GC
@@ -46926,14 +47595,14 @@ ua
 ua
 ht
 fl
+hE
 vG
 vG
 vG
 vG
 vG
 vG
-vG
-vG
+hE
 xt
 ht
 ua
@@ -47132,7 +47801,7 @@ or
 or
 or
 GC
-GC
+iq
 or
 ae
 ds
@@ -47383,7 +48052,7 @@ dg
 ax
 GC
 GC
-GC
+wo
 GC
 GC
 GC
@@ -47897,7 +48566,7 @@ Ve
 ax
 GC
 GC
-GC
+yg
 GC
 GC
 GC
@@ -47906,7 +48575,7 @@ GC
 GC
 or
 Zb
-Uo
+Uj
 Uo
 Wa
 or
@@ -48934,7 +49603,7 @@ xM
 CP
 LP
 rO
-rO
+kJ
 or
 ua
 ua
@@ -49963,7 +50632,7 @@ ju
 GC
 GC
 GC
-GC
+wo
 GC
 GC
 GC
@@ -50474,7 +51143,7 @@ or
 or
 or
 or
-GC
+xz
 pE
 hg
 hg
@@ -50738,7 +51407,7 @@ hg
 hg
 hg
 bj
-GC
+iq
 or
 ua
 ua
